@@ -7,7 +7,7 @@ export const siteConfig = {
     url: env.NEXT_PUBLIC_APP_URL,
 
     github: "https://github.com/saurabhtiwari021",
-    linkedin: "https://linkedin.com/in/saurabhtiwari021",
+    linkedin: "https://linkedin.com/in/saurabh-tiwari-b30b362a5/",
 
     email: "saurabhtiwari848586@gmail.com",
 
