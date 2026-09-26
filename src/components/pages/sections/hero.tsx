@@ -123,10 +123,13 @@ const Hero = () => {
                 size="lg"
                 className="group/btn border-2 font-medium"
               >
-                <Link href={"/resume.pdf"}>
+                <a
+                  href="/resume.pdf"
+                  download="Saurabh-Tiwari-Resume.pdf"
+                >
                   <Download className="size-4 transition-transform group-hover/btn:translate-y-0.5" />
                   Download Resume
-                </Link>
+                </a>
               </Button>
               <Button
                 asChild

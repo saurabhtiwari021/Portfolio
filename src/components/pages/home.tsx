@@ -366,8 +366,12 @@ const HomePage = () => {
             // setCurrentConsoleNavigation("portfolio")
           },
           resume: () => {
-            const resumeUrl = "/resume.pdf";
-            window.open(resumeUrl, "_blank");
+            const link = document.createElement("a");
+            link.href = "/resume.pdf";
+            link.download = "Saurabh-Tiwari-Resume.pdf";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
           },
         };
 
